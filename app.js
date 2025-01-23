@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 const app = express();
-const PORT = 4000;
+const PORT = 5000;
 const DATA_FILE = path.join(__dirname, 'tasks.json');
 
 // Middleware to parse JSON
